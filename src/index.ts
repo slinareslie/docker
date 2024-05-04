@@ -4,7 +4,7 @@ import { swagger } from '@elysiajs/swagger'
 const app = new Elysia()
     .use(swagger())
     .get('/', () => 'hi')
-    .post('/hello', () => 'world')
+    .post('/hello', () => 'mundo')
     .listen(3000)
 
 
